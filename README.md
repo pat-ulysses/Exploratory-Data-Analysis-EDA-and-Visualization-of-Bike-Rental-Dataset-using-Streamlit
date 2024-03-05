@@ -2,15 +2,14 @@
 
 ## Setup environment
 ```
-mkdir proyek_dicoding
-cd proyek_dicoding
-pipenv install
-pipenv shell
+conda create --name main-ds python=3.9
+conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
+cd "....\final_project\Dashboard
 ```
 
 ## Run steamlit app
 ```
-streamlit run c:/Users/Patrick/final_dicoding/dashboard.py
+streamlit run dashboard.py
 ```
 
